@@ -158,6 +158,10 @@ body {
 .btn-primer .bt:hover, .btn-primer:focus{
     color: var(--accent-text-cl);
 }
+.visually-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
 .projects{
     background-color: var(--pr-bg-cl);
 }
