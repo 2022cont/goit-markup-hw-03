@@ -1,4 +1,5 @@
-    /* Определение переменных(основных значений) */
+  
+  /* Определение переменных(основных значений) */
 :root{
 --pr-text-cl:#757575;
 --title-text-cl:#212121;
@@ -13,11 +14,9 @@
 --sec-bg-cl:#F5F4FA;
 --banner-bg-cl:#2F303A;
 }
-
 body {
-    background-color:var(--pr-bg-cl);
     color:var(--pr-text-cl);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -33,14 +32,14 @@ body {
 .link-nav, .feedback{
     color: var(--title-text-cl);
     font-weight: 500;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .logo-menu {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19em;
+    line-height: 1.19;
 }
 .contact {
     color: var(--pr-text-cl);
@@ -51,10 +50,8 @@ body {
 .logo-dark{
     color: var(--black-text);
 }
-.web-logo {
-    color: var(--accent-text-cl);
-}
-.site-nav .link.current {
+
+.site-nav .link.current, .web-logo {
     color: var(--accent-text-cl);
 }
 
@@ -75,7 +72,7 @@ body {
     color: var(--pr-bg-cl);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -88,7 +85,7 @@ body {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88em;
+    line-height: 1.88;
     letter-spacing: 0.06em;
 }
 .oder-btn:hover, .oder-btn:focus{
@@ -99,14 +96,20 @@ body {
     color: var(--title-text-cl);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17em;
+    line-height: 1.17;
     
 }
 .list-title{
     color: var(--title-text-cl);
     font-weight: 700;
-    line-height: 1.14em;
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
+}
+.cards-title{
+    color: var(--title-text-cl);
+    font-weight: 500;
+    letter-spacing: 0.03em;  
 }
 
 .text, .bg-line-contact{
@@ -117,7 +120,7 @@ body {
 }
 .team-text{
     font-size: 16px;
-    line-height: 1.19em;
+    line-height: 1.19;
 }
 .caption, .team-text{
     text-align: center;
@@ -147,7 +150,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,63em;
+    line-height: 1,63;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -155,9 +158,18 @@ body {
     background-color: var(--accent-text-cl);
     color: var(--wite-text);
 }
-.btn-primer .bt:hover, .btn-primer:focus{
+.btn.btn-primer:hover, .btn.btn-primer:focus{
+    background-color: var(--pr-bg-cl);
     color: var(--accent-text-cl);
 }
+.btn.btn-second{
+    background-color: var(--pr-bg-cl);
+    color: var(--pr-text-cl);
+}
+.btn.btn-second:hover, .btn.btn-second:focus{
+    background-color: var(--accent-text-cl);
+    color: var(--wite-text);
+
 .visually-hidden{
     position: absolute;
     clip: rect(0 0 0 0);
@@ -169,11 +181,11 @@ body {
     color: var(--title-text-cl);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2em;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio-title{
     font-size: 16px;
-    line-height: 1.88em;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
