@@ -63,6 +63,7 @@
 
   .link, .bg-line-contact {
       text-decoration: none;
+      padding: 32px 0px;
   }
 
   .container {
@@ -84,15 +85,18 @@
       padding-bottom: 94px;
   }
 
+  .header-border {
+      border-bottom: 1px solid #ECECEC;
+      border-top: none;
+  }
+
   .header-container {
       display: flex;
       align-items: center;
-      border: 1px solid #ECECEC;
-      border-top: none;
-      margin-bottom: 60px;
+
   }
 
-  .header-logo-menu, .footer-logo-menu {
+  .header-logo-menu {
       display: inline-flex;
       margin-right: 93px;
   }
@@ -130,7 +134,7 @@
       letter-spacing: 0.02em;
   }
 
-  .header-logo-menu, .footer-logo-menu {
+  .header-logo-menu {
       font-family: var(--logo-font), sans-serif;
       font-weight: 700;
       font-size: 26px;
@@ -177,11 +181,13 @@
 
       letter-spacing: 0.06em;
       text-transform: uppercase;
+      width: 696px;
+      margin: 0 auto;
+      margin-bottom: 30px;
   }
 
   .oder-btn {
       font-family: inherit;
-      width: 200px;
       color: var(--wite-text);
       background-color: var(--brn-bg-cl);
       border: none;
@@ -190,6 +196,7 @@
       font-size: 16px;
       line-height: 1.88;
       letter-spacing: 0.06em;
+      padding: 10px 32px;
   }
 
   .oder-btn:hover, .oder-btn:focus {
@@ -229,6 +236,10 @@
 
   .text {
       margin-top: 10px;
+  }
+
+  .pad-section0 {
+      padding-bottom: 0;
   }
 
   /* Чем мы занимаемся */
@@ -301,6 +312,15 @@
       align-items: flex-start;
   }
 
+  .footer-logo-menu {
+      display: inline-flex;
+  }
+
+  .footer-link {
+      text-decoration: none;
+      padding: 20px 0px;
+  }
+
   /* Цветовое оформление Футера */
   .logo-wite {
       color: var(--wite-text);
@@ -334,7 +354,6 @@
   }
 
   .btn {
-      background-color: transparent;
       border-radius: 4px;
       border: none;
       font-family: inherit;
@@ -343,6 +362,8 @@
       line-height: 1.63;
       text-align: center;
       letter-spacing: 0.03em;
+      padding: 6px 22px;
+
   }
 
   .btn.btn-primer {
@@ -353,11 +374,6 @@
   .btn.btn-primer:hover, .btn.btn-primer:focus {
       background-color: var(--pr-bg-cl);
       color: var(--accent-text-cl);
-  }
-
-  .btn.btn-second {
-      background-color: var(--pr-bg-cl);
-      color: var(--pr-text-cl);
   }
 
   .btn.btn-second:hover, .btn.btn-second:focus {
@@ -390,7 +406,5 @@
   }
 
   .subtitle-projects-item {
-      margin-top: 20px;
-      padding-left: 24px;
-      padding-right: 24px;
+      padding: 20px 24px;
   }
